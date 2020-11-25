@@ -1,3 +1,4 @@
 # subscribe
-ss://YWVzLTI1Ni1nY206VWhWNzNNOXJtR3FEZktoM1h0ZDRVU0hwQDE0NC45MS4xMjMuNTI6MzY4MTE#%F0%9F%87%A9%F0%9F%87%AA%20bn-chanll-Surfshark-Germany%207
+ Free Shadowsocks, ShadowsocksR, V2ray, Trojan. 
+ All resources are crawled from free resources on the Internet, please do not use them for illegal purposes
 
