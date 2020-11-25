@@ -9,6 +9,6 @@
 - https://raw.githubusercontent.com/MerdanK/subscribe/main/SSR
 
 ### Clash subscription link 
-- https://raw.githubusercontent.com/MerdanK/subscribe/main/Clash
+- https://raw.githubusercontent.com/MerdanK/subscribe/main/Clash.yml
 
 
