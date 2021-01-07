@@ -1,0 +1,1433 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: (@proSSH)United, server: 51.195.63.227, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 2, server: 51.195.63.225, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany, server: 193.108.118.235, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 2, server: 193.108.118.199, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 3, server: 193.108.118.175, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 4, server: 193.108.118.111, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 5, server: 91.199.118.57, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 6, server: 193.108.118.27, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 7, server: 91.199.118.58, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 8, server: 193.108.118.245, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 9, server: 91.199.118.50, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 10, server: 193.108.118.188, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 11, server: 193.108.118.126, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 3, server: 51.195.79.71, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 12, server: 91.199.118.168, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 4, server: 51.195.79.119, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 5, server: 51.195.62.219, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 6, server: 51.195.62.223, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 13, server: 193.108.118.240, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 14, server: 91.238.82.55, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 15, server: 193.108.118.221, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 7, server: 51.195.79.75, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 8, server: 51.195.63.228, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 16, server: 91.199.118.54, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 17, server: 91.238.82.56, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 18, server: 193.108.118.12, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 9, server: 178.239.172.16, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 10, server: 178.239.172.25, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 11, server: 178.239.172.17, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 12, server: 88.150.241.7, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 13, server: 185.44.78.49, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 14, server: 178.239.172.11, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 15, server: 87.117.204.37, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 16, server: 185.198.189.93, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 17, server: 87.117.204.40, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 18, server: 87.117.204.39, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 19, server: 89.238.128.58, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 20, server: 109.169.15.106, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France, server: 178.170.40.134, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 2, server: 178.170.42.128, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 3, server: 109.238.14.148, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 4, server: 178.170.42.160, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 5, server: 178.170.42.145, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 6, server: 178.170.42.88, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 7, server: 178.170.42.87, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 (@proSSH)Singapore, server: 185.128.24.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 (@proSSH)Singapore 2, server: 37.120.151.14, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇷🇺 (@proSSH)Russia, server: 92.38.139.165, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇵🇭 (@proSSH)Philippines, server: 116.93.120.17, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇵🇭 (@proSSH)Philippines 2, server: 43.243.127.132, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)New, server: 103.62.49.141, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇳🇱 (@proSSH)Netherlands, server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇮🇹 (@proSSH)Italy, server: 95.141.32.119, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)Israel, server: 185.241.7.173, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇮🇪 (@proSSH)Ireland, server: 34.255.181.144, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇮🇳 (@proSSH)India, server: 15.207.85.105, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇮🇳 (@proSSH)India 2, server: 35.154.18.246, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇮🇳 (@proSSH)India 3, server: 134.209.155.247, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)Hong, server: 148.66.56.99, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇧🇷 (@proSSH)Brazil, server: 189.1.173.26, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)Belgium, server: 193.9.114.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇯🇵 (@proSSH)Japan, server: 37.120.210.198, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 19, server: 3.121.162.83, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 20, server: 52.57.197.104, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 21, server: 217.138.194.246, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 22, server: 37.157.254.12, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 (@proSSH)Germany 23, server: 193.176.86.190, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 8, server: 35.180.91.240, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 9, server: 35.180.44.215, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 10, server: 217.138.207.74, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇫🇷 (@proSSH)France 11, server: 51.159.30.61, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦 (@proSSH)Canada, server: 72.140.224.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇦🇺 (@proSSH)Australia, server: 103.1.212.5, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 21, server: 195.12.49.82, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 22, server: 3.10.169.185, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 23, server: 3.8.115.25, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 24, server: 88.150.240.246, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 25, server: 37.120.198.98, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 26, server: 167.88.61.2, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 27, server: 37.120.150.18, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 28, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 29, server: 38.132.103.70, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 30, server: 194.36.111.102, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 31, server: 193.37.252.210, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 32, server: 172.245.218.162, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 33, server: 195.206.104.174, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 34, server: 37.120.147.230, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 35, server: 38.68.134.196, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 36, server: 162.251.61.47, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)United 37, server: 51.89.43.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (@proSSH)UnitedArabEmirates, server: 45.9.250.103, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)United 38, server: 45.9.249.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Albania, server: 31.171.152.197, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Albania 2, server: 31.171.154.147, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)Austria, server: 5.253.207.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)Austria 2, server: 37.120.212.147, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 2, server: 45.248.79.69, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 3, server: 45.248.79.35, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 4, server: 144.48.39.109, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 5, server: 144.48.39.67, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 6, server: 103.192.80.147, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 7, server: 144.48.38.149, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 8, server: 45.248.78.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 9, server: 124.150.139.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 10, server: 45.125.247.157, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇦🇺 (@proSSH)Australia 11, server: 45.248.76.173, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)BosniaandHerzegovina, server: 185.99.3.12, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)BosniaandHerzegovina 2, server: 185.212.111.6, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Belgium 2, server: 37.120.143.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Belgium 3, server: 185.232.21.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Bulgaria, server: 217.138.202.21, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇧🇷 (@proSSH)Brazil 2, server: 191.96.73.210, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇧🇷 (@proSSH)Brazil 3, server: 191.96.73.226, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇦 (@proSSH)Canada 2, server: 172.98.82.227, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇦 (@proSSH)Canada 3, server: 172.98.82.231, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇦 (@proSSH)Canada 4, server: 104.200.138.163, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇦 (@proSSH)Canada 5, server: 104.200.138.152, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇦 (@proSSH)Canada 6, server: 104.200.132.35, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇦 (@proSSH)Canada 7, server: 66.115.147.82, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Switzerland, server: 84.17.53.166, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Switzerland 2, server: 84.17.53.225, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Chile, server: 31.169.121.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)CostaRica, server: 176.227.241.26, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)CostaRica 2, server: 176.227.241.19, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)Cyprus, server: 195.47.194.32, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)Cyprus 2, server: 195.47.194.59, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Czechia, server: 193.9.112.183, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇪 (@proSSH)Germany 24, server: 152.89.163.23, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇪 (@proSSH)Germany 25, server: 217.138.216.237, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇪 (@proSSH)Germany 26, server: 185.102.219.49, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇪 (@proSSH)Germany 27, server: 89.187.169.119, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Denmark, server: 37.120.145.19, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Denmark 2, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Estonia, server: 165.231.163.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Estonia 2, server: 185.174.159.59, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Spain, server: 185.188.61.27, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Spain 2, server: 185.188.61.7, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Spain 3, server: 89.37.95.17, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Spain 4, server: 89.37.95.15, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Spain 5, server: 185.153.150.58, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Spain 6, server: 196.196.150.99, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇮 (@proSSH)Finland, server: 196.244.191.179, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇮 (@proSSH)Finland 2, server: 196.244.191.197, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 (@proSSH)France 12, server: 185.108.106.51, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 (@proSSH)France 13, server: 185.108.106.148, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 (@proSSH)France 14, server: 185.166.84.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 (@proSSH)France 15, server: 185.166.84.75, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 (@proSSH)France 16, server: 45.89.174.103, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 (@proSSH)France 17, server: 84.17.43.185, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Greece, server: 194.150.167.40, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Greece 2, server: 194.150.167.46, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇭🇰 (@proSSH)HongKong, server: 212.102.42.206, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇭🇰 (@proSSH)HongKong 2, server: 212.102.42.194, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Croatia, server: 89.164.99.109, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Hungary, server: 37.120.144.151, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇩 (@proSSH)Indonesia, server: 103.120.66.219, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇩 (@proSSH)Indonesia 2, server: 103.120.66.214, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇪 (@proSSH)Ireland 2, server: 185.108.128.159, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇪 (@proSSH)Ireland 3, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Israel 2, server: 87.239.255.114, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Israel 3, server: 87.239.255.109, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇳 (@proSSH)India 4, server: 103.108.117.118, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇳 (@proSSH)India 5, server: 103.108.117.151, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇳 (@proSSH)India 6, server: 103.73.189.221, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇳 (@proSSH)India 7, server: 103.39.132.189, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇳 (@proSSH)India 8, server: 103.221.233.68, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇳 (@proSSH)India 9, server: 165.231.253.165, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Iceland, server: 82.221.128.156, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Iceland 2, server: 82.221.128.169, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇹 (@proSSH)Italy 2, server: 212.102.54.130, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇹 (@proSSH)Italy 3, server: 84.17.58.205, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇹 (@proSSH)Italy 4, server: 82.102.26.51, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇹 (@proSSH)Italy 5, server: 185.217.71.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇯🇵 (@proSSH)Japan 2, server: 45.87.213.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇯🇵 (@proSSH)Japan 3, server: 89.187.161.241, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)South, server: 61.14.210.232, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)South 2, server: 103.249.28.231, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Kazakhstan, server: 95.57.207.206, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Kazakhstan 2, server: 95.57.207.200, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Luxembourg, server: 185.153.151.100, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Luxembourg 2, server: 185.153.151.106, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)RepublicofLithuania, server: 188.92.78.150, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)RepublicofLithuania 2, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Libya, server: 41.208.72.157, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Libya 2, server: 41.208.72.204, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Republic-of-Moldova, server: 178.175.128.235, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)North-Macedonia, server: 185.225.28.93, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)North-Macedonia 2, server: 185.225.28.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇲🇾 (@proSSH)Malaysia, server: 42.0.30.211, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇲🇾 (@proSSH)Malaysia 2, server: 42.0.30.162, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Nigeria, server: 102.165.23.6, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Nigeria 2, server: 102.165.23.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇳🇱 (@proSSH)Netherlands 2, server: 89.46.223.219, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇳🇱 (@proSSH)Netherlands 3, server: 89.46.223.100, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Norway, server: 45.12.223.69, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)New-Zealand, server: 180.149.231.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)New-Zealand 2, server: 180.149.231.67, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Poland, server: 5.187.53.55, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Poland 2, server: 5.253.206.71, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Portugal, server: 5.154.174.189, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Portugal 2, server: 5.154.174.67, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Portugal 3, server: 176.61.146.84, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Portugal 4, server: 194.39.127.38, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Portugal 5, server: 194.39.127.233, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Paraguay, server: 186.16.32.173, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Paraguay 2, server: 186.16.32.168, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Romania, server: 185.102.217.165, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Romania 2, server: 185.102.217.163, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Serbia, server: 152.89.160.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Serbia 2, server: 37.120.193.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇺 (@proSSH)Russia 2, server: 213.183.56.166, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇺 (@proSSH)Russia 3, server: 213.183.56.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇺 (@proSSH)Russia 4, server: 213.183.54.165, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇺 (@proSSH)Russia 5, server: 213.183.54.143, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇪 (@proSSH)Sweden, server: 45.83.91.151, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇪 (@proSSH)Sweden 2, server: 185.76.9.46, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 (@proSSH)Singapore 3, server: 156.146.56.132, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 (@proSSH)Singapore 4, server: 89.187.163.210, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Slovenia, server: 195.158.249.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Slovenia 2, server: 195.158.249.38, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Slovakia, server: 193.37.255.39, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)Slovakia 2, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇹🇭 (@proSSH)Thailand, server: 45.64.186.163, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇹🇭 (@proSSH)Thailand 2, server: 45.64.186.132, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇹🇷 (@proSSH)Turkey, server: 185.195.79.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇹🇷 (@proSSH)Turkey 2, server: 185.195.79.21, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 (@proSSH)Taiwan, server: 2.58.241.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 (@proSSH)Taiwan 2, server: 103.152.151.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)Ukraine, server: 45.9.238.30, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)Ukraine 2, server: 45.9.238.23, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom, server: 185.108.105.161, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 2, server: 185.108.105.35, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 3, server: 185.16.206.75, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 4, server: 178.239.166.234, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 5, server: 86.106.136.85, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 6, server: 217.138.196.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States, server: 66.115.175.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 2, server: 66.115.175.52, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 3, server: 45.43.14.105, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 4, server: 154.16.168.188, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 5, server: 173.237.207.15, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 6, server: 173.237.207.25, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 7, server: 107.174.20.134, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 8, server: 107.175.104.86, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 9, server: 74.119.146.197, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 10, server: 74.119.146.181, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 11, server: 192.154.255.52, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 12, server: 192.154.255.54, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 13, server: 107.181.173.163, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 14, server: 66.115.177.153, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 15, server: 212.102.44.88, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 16, server: 212.102.44.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 17, server: 104.244.208.35, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 18, server: 104.244.211.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 19, server: 199.10.64.99, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 20, server: 199.10.64.101, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 21, server: 204.12.208.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 22, server: 173.208.202.61, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 23, server: 89.187.187.149, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 24, server: 185.242.5.215, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 25, server: 89.187.187.88, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 26, server: 192.111.134.200, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 27, server: 45.43.19.84, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 28, server: 154.16.169.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 29, server: 172.83.42.39, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 30, server: 172.83.42.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 31, server: 23.82.8.173, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 (@proSSH)United-States 32, server: 23.105.160.144, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (@proSSH)UnitedArabEmirates 2, server: 45.9.250.103, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)United 39, server: 45.9.249.245, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Albania 3, server: 31.171.152.197, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Albania 4, server: 31.171.154.147, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)Austria 3, server: 5.253.207.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)Austria 4, server: 37.120.212.147, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 12, server: 45.248.79.69, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 13, server: 45.248.79.35, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 14, server: 144.48.39.109, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 15, server: 144.48.39.67, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 16, server: 103.192.80.147, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 17, server: 144.48.38.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 18, server: 45.248.78.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 19, server: 124.150.139.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 20, server: 45.125.247.157, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇦🇺 (@proSSH)Australia 21, server: 45.248.76.173, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)BosniaandHerzegovina 3, server: 185.99.3.12, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)BosniaandHerzegovina 4, server: 185.212.111.6, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Belgium 4, server: 37.120.143.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Belgium 5, server: 185.232.21.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Bulgaria 2, server: 217.138.202.21, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇧🇷 (@proSSH)Brazil 4, server: 191.96.73.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇧🇷 (@proSSH)Brazil 5, server: 191.96.73.226, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇦 (@proSSH)Canada 8, server: 172.98.82.227, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇦 (@proSSH)Canada 9, server: 172.98.82.231, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇦 (@proSSH)Canada 10, server: 104.200.138.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇦 (@proSSH)Canada 11, server: 104.200.138.152, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇦 (@proSSH)Canada 12, server: 104.200.132.35, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇦 (@proSSH)Canada 13, server: 66.115.147.82, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Switzerland 3, server: 84.17.53.166, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Switzerland 4, server: 84.17.53.225, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Chile 2, server: 31.169.121.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)CostaRica 3, server: 176.227.241.26, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)CostaRica 4, server: 176.227.241.19, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)Cyprus 3, server: 195.47.194.32, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)Cyprus 4, server: 195.47.194.59, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Czechia 2, server: 193.9.112.183, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇪 (@proSSH)Germany 28, server: 152.89.163.23, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇪 (@proSSH)Germany 29, server: 217.138.216.237, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇪 (@proSSH)Germany 30, server: 185.102.219.49, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇪 (@proSSH)Germany 31, server: 89.187.169.119, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Denmark 3, server: 37.120.145.19, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Denmark 4, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Estonia 3, server: 165.231.163.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Estonia 4, server: 185.174.159.59, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Spain 7, server: 185.188.61.27, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Spain 8, server: 185.188.61.7, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Spain 9, server: 89.37.95.17, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Spain 10, server: 89.37.95.15, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Spain 11, server: 185.153.150.58, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Spain 12, server: 196.196.150.99, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇮 (@proSSH)Finland 3, server: 196.244.191.179, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇮 (@proSSH)Finland 4, server: 196.244.191.197, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇷 (@proSSH)France 18, server: 185.108.106.51, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇷 (@proSSH)France 19, server: 185.108.106.148, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇷 (@proSSH)France 20, server: 185.166.84.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇷 (@proSSH)France 21, server: 185.166.84.75, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇷 (@proSSH)France 22, server: 45.89.174.103, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇫🇷 (@proSSH)France 23, server: 84.17.43.185, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Greece 3, server: 194.150.167.40, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Greece 4, server: 194.150.167.46, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇭🇰 (@proSSH)HongKong 3, server: 212.102.42.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇭🇰 (@proSSH)HongKong 4, server: 212.102.42.194, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Croatia 2, server: 89.164.99.109, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Hungary 2, server: 37.120.144.151, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇩 (@proSSH)Indonesia 3, server: 103.120.66.219, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇩 (@proSSH)Indonesia 4, server: 103.120.66.214, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇪 (@proSSH)Ireland 4, server: 185.108.128.159, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇪 (@proSSH)Ireland 5, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Israel 4, server: 87.239.255.114, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Israel 5, server: 87.239.255.109, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 (@proSSH)India 10, server: 103.108.117.118, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 (@proSSH)India 11, server: 103.108.117.151, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 (@proSSH)India 12, server: 103.73.189.221, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 (@proSSH)India 13, server: 103.39.132.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 (@proSSH)India 14, server: 103.221.233.68, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 (@proSSH)India 15, server: 165.231.253.165, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Iceland 3, server: 82.221.128.156, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Iceland 4, server: 82.221.128.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇹 (@proSSH)Italy 6, server: 212.102.54.130, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇹 (@proSSH)Italy 7, server: 84.17.58.205, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇹 (@proSSH)Italy 8, server: 82.102.26.51, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇹 (@proSSH)Italy 9, server: 185.217.71.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇯🇵 (@proSSH)Japan 4, server: 45.87.213.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇯🇵 (@proSSH)Japan 5, server: 89.187.161.241, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)South 3, server: 61.14.210.232, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)South 4, server: 103.249.28.231, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Kazakhstan 3, server: 95.57.207.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Kazakhstan 4, server: 95.57.207.200, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Luxembourg 3, server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Luxembourg 4, server: 185.153.151.106, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)RepublicofLithuania 3, server: 188.92.78.150, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)RepublicofLithuania 4, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Libya 3, server: 41.208.72.157, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Libya 4, server: 41.208.72.204, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Republic-of-Moldova 2, server: 178.175.128.235, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)North-Macedonia 3, server: 185.225.28.93, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)North-Macedonia 4, server: 185.225.28.243, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇲🇾 (@proSSH)Malaysia 3, server: 42.0.30.211, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇲🇾 (@proSSH)Malaysia 4, server: 42.0.30.162, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Nigeria 3, server: 102.165.23.6, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Nigeria 4, server: 102.165.23.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇳🇱 (@proSSH)Netherlands 4, server: 89.46.223.219, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇳🇱 (@proSSH)Netherlands 5, server: 89.46.223.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Norway 2, server: 45.12.223.69, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)New-Zealand 3, server: 180.149.231.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)New-Zealand 4, server: 180.149.231.67, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Poland 3, server: 5.187.53.55, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Poland 4, server: 5.253.206.71, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Portugal 6, server: 5.154.174.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Portugal 7, server: 5.154.174.67, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Portugal 8, server: 176.61.146.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Portugal 9, server: 194.39.127.38, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Portugal 10, server: 194.39.127.233, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Paraguay 3, server: 186.16.32.173, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Paraguay 4, server: 186.16.32.168, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Romania 3, server: 185.102.217.165, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Romania 4, server: 185.102.217.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Serbia 3, server: 152.89.160.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Serbia 4, server: 37.120.193.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇷🇺 (@proSSH)Russia 6, server: 213.183.56.166, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇷🇺 (@proSSH)Russia 7, server: 213.183.56.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇷🇺 (@proSSH)Russia 8, server: 213.183.54.165, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇷🇺 (@proSSH)Russia 9, server: 213.183.54.143, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇪 (@proSSH)Sweden 3, server: 45.83.91.151, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇪 (@proSSH)Sweden 4, server: 185.76.9.46, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇬 (@proSSH)Singapore 5, server: 156.146.56.132, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇬 (@proSSH)Singapore 6, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Slovenia 3, server: 195.158.249.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Slovenia 4, server: 195.158.249.38, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Slovakia 3, server: 193.37.255.39, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (@proSSH)Slovakia 4, server: 37.120.221.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇹🇭 (@proSSH)Thailand 3, server: 45.64.186.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇹🇭 (@proSSH)Thailand 4, server: 45.64.186.132, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇹🇷 (@proSSH)Turkey 3, server: 185.195.79.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇹🇷 (@proSSH)Turkey 4, server: 185.195.79.21, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 (@proSSH)Taiwan 3, server: 2.58.241.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇨🇳 (@proSSH)Taiwan 4, server: 103.152.151.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)Ukraine 3, server: 45.9.238.30, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)Ukraine 4, server: 45.9.238.23, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 7, server: 185.108.105.161, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 8, server: 185.108.105.35, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 9, server: 185.16.206.75, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 10, server: 178.239.166.234, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 11, server: 86.106.136.85, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 (@proSSH)United-Kingdom 12, server: 217.138.196.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 33, server: 66.115.175.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 34, server: 66.115.175.52, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 35, server: 45.43.14.105, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 36, server: 154.16.168.188, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 37, server: 173.237.207.15, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 38, server: 173.237.207.25, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 39, server: 107.174.20.134, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 40, server: 107.175.104.86, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 41, server: 74.119.146.197, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 42, server: 74.119.146.181, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 43, server: 192.154.255.52, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 44, server: 192.154.255.54, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 45, server: 107.181.173.163, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 46, server: 66.115.177.153, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 47, server: 212.102.44.88, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 48, server: 212.102.44.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 49, server: 104.244.208.35, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 50, server: 104.244.211.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 51, server: 199.10.64.99, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 52, server: 199.10.64.101, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 53, server: 204.12.208.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 54, server: 173.208.202.61, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 55, server: 89.187.187.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 56, server: 185.242.5.215, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 57, server: 89.187.187.88, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 58, server: 192.111.134.200, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 59, server: 45.43.19.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 60, server: 154.16.169.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 61, server: 172.83.42.39, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 62, server: 172.83.42.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 63, server: 23.82.8.173, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 (@proSSH)United-States 64, server: 23.105.160.144, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇪 Germany1(@proSSH), server: 104.248.39.238, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇩🇪 Germany2(@proSSH), server: 104.248.39.249, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇩🇪 Germany3(@proSSH), server: 104.248.39.217, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇩🇪 Germany4(@proSSH), server: 178.128.194.177, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇩🇪 Germany5(@proSSH), server: 104.248.24.101, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇳🇱 Netherlands1(@proSSH), server: 64.227.68.35, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇳🇱 Netherlands2(@proSSH), server: 188.166.57.227, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇳🇱 Netherlands3(@proSSH), server: 188.166.36.146, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇳🇱 Netherlands4(@proSSH), server: 188.166.57.174, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇳🇱 Netherlands5(@proSSH), server: 64.227.69.179, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇸🇬 Singapore1(@proSSH), server: 206.189.91.144, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇸🇬 Singapore2(@proSSH), server: 104.248.159.6, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇸🇬 Singapore3(@proSSH), server: 139.59.107.232, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇸🇬 Singapore4(@proSSH), server: 178.128.117.101, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇸🇬 Singapore5(@proSSH), server: 104.248.152.229, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇺🇸 United-states1(@proSSH), server: 178.128.179.66, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇺🇸 United-states2(@proSSH), server: 178.128.183.180, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇺🇸 United-states3(@proSSH), server: 178.128.10.187, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇺🇸 United-states4(@proSSH), server: 159.89.147.226, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+  - {name: 🇺🇸 United-states5(@proSSH), server: 159.65.98.30, port: 8388, type: ss, cipher: aes-128-cfb, password: zDXl23dlNqvgCQy3Bt22brwe5w4}
+
+proxy-groups:
+  - name: 🔰 Select
+    type: select
+    proxies:
+      - 🔥 Auto(Best ping)
+      - (@proSSH)United
+      - (@proSSH)United 2
+      - 🇩🇪 (@proSSH)Germany
+      - 🇩🇪 (@proSSH)Germany 2
+      - 🇩🇪 (@proSSH)Germany 3
+      - 🇩🇪 (@proSSH)Germany 4
+      - 🇩🇪 (@proSSH)Germany 5
+      - 🇩🇪 (@proSSH)Germany 6
+      - 🇩🇪 (@proSSH)Germany 7
+      - 🇩🇪 (@proSSH)Germany 8
+      - 🇩🇪 (@proSSH)Germany 9
+      - 🇩🇪 (@proSSH)Germany 10
+      - 🇩🇪 (@proSSH)Germany 11
+      - (@proSSH)United 3
+      - 🇩🇪 (@proSSH)Germany 12
+      - (@proSSH)United 4
+      - (@proSSH)United 5
+      - (@proSSH)United 6
+      - 🇩🇪 (@proSSH)Germany 13
+      - 🇩🇪 (@proSSH)Germany 14
+      - 🇩🇪 (@proSSH)Germany 15
+      - (@proSSH)United 7
+      - (@proSSH)United 8
+      - 🇩🇪 (@proSSH)Germany 16
+      - 🇩🇪 (@proSSH)Germany 17
+      - 🇩🇪 (@proSSH)Germany 18
+      - (@proSSH)United 9
+      - (@proSSH)United 10
+      - (@proSSH)United 11
+      - (@proSSH)United 12
+      - (@proSSH)United 13
+      - (@proSSH)United 14
+      - (@proSSH)United 15
+      - (@proSSH)United 16
+      - (@proSSH)United 17
+      - (@proSSH)United 18
+      - (@proSSH)United 19
+      - (@proSSH)United 20
+      - 🇫🇷 (@proSSH)France
+      - 🇫🇷 (@proSSH)France 2
+      - 🇫🇷 (@proSSH)France 3
+      - 🇫🇷 (@proSSH)France 4
+      - 🇫🇷 (@proSSH)France 5
+      - 🇫🇷 (@proSSH)France 6
+      - 🇫🇷 (@proSSH)France 7
+      - 🇸🇬 (@proSSH)Singapore
+      - 🇸🇬 (@proSSH)Singapore 2
+      - 🇷🇺 (@proSSH)Russia
+      - 🇵🇭 (@proSSH)Philippines
+      - 🇵🇭 (@proSSH)Philippines 2
+      - (@proSSH)New
+      - 🇳🇱 (@proSSH)Netherlands
+      - 🇮🇹 (@proSSH)Italy
+      - (@proSSH)Israel
+      - 🇮🇪 (@proSSH)Ireland
+      - 🇮🇳 (@proSSH)India
+      - 🇮🇳 (@proSSH)India 2
+      - 🇮🇳 (@proSSH)India 3
+      - (@proSSH)Hong
+      - 🇧🇷 (@proSSH)Brazil
+      - (@proSSH)Belgium
+      - 🇯🇵 (@proSSH)Japan
+      - 🇩🇪 (@proSSH)Germany 19
+      - 🇩🇪 (@proSSH)Germany 20
+      - 🇩🇪 (@proSSH)Germany 21
+      - 🇩🇪 (@proSSH)Germany 22
+      - 🇩🇪 (@proSSH)Germany 23
+      - 🇫🇷 (@proSSH)France 8
+      - 🇫🇷 (@proSSH)France 9
+      - 🇫🇷 (@proSSH)France 10
+      - 🇫🇷 (@proSSH)France 11
+      - 🇨🇦 (@proSSH)Canada
+      - 🇦🇺 (@proSSH)Australia
+      - (@proSSH)United 21
+      - (@proSSH)United 22
+      - (@proSSH)United 23
+      - (@proSSH)United 24
+      - (@proSSH)United 25
+      - (@proSSH)United 26
+      - (@proSSH)United 27
+      - (@proSSH)United 28
+      - (@proSSH)United 29
+      - (@proSSH)United 30
+      - (@proSSH)United 31
+      - (@proSSH)United 32
+      - (@proSSH)United 33
+      - (@proSSH)United 34
+      - (@proSSH)United 35
+      - (@proSSH)United 36
+      - (@proSSH)United 37
+      - (@proSSH)UnitedArabEmirates
+      - (@proSSH)United 38
+      - (@proSSH)Albania
+      - (@proSSH)Albania 2
+      - 🇺🇸 (@proSSH)Austria
+      - 🇺🇸 (@proSSH)Austria 2
+      - 🇦🇺 (@proSSH)Australia 2
+      - 🇦🇺 (@proSSH)Australia 3
+      - 🇦🇺 (@proSSH)Australia 4
+      - 🇦🇺 (@proSSH)Australia 5
+      - 🇦🇺 (@proSSH)Australia 6
+      - 🇦🇺 (@proSSH)Australia 7
+      - 🇦🇺 (@proSSH)Australia 8
+      - 🇦🇺 (@proSSH)Australia 9
+      - 🇦🇺 (@proSSH)Australia 10
+      - 🇦🇺 (@proSSH)Australia 11
+      - (@proSSH)BosniaandHerzegovina
+      - (@proSSH)BosniaandHerzegovina 2
+      - (@proSSH)Belgium 2
+      - (@proSSH)Belgium 3
+      - (@proSSH)Bulgaria
+      - 🇧🇷 (@proSSH)Brazil 2
+      - 🇧🇷 (@proSSH)Brazil 3
+      - 🇨🇦 (@proSSH)Canada 2
+      - 🇨🇦 (@proSSH)Canada 3
+      - 🇨🇦 (@proSSH)Canada 4
+      - 🇨🇦 (@proSSH)Canada 5
+      - 🇨🇦 (@proSSH)Canada 6
+      - 🇨🇦 (@proSSH)Canada 7
+      - (@proSSH)Switzerland
+      - (@proSSH)Switzerland 2
+      - (@proSSH)Chile
+      - (@proSSH)CostaRica
+      - (@proSSH)CostaRica 2
+      - 🇺🇸 (@proSSH)Cyprus
+      - 🇺🇸 (@proSSH)Cyprus 2
+      - (@proSSH)Czechia
+      - 🇩🇪 (@proSSH)Germany 24
+      - 🇩🇪 (@proSSH)Germany 25
+      - 🇩🇪 (@proSSH)Germany 26
+      - 🇩🇪 (@proSSH)Germany 27
+      - (@proSSH)Denmark
+      - (@proSSH)Denmark 2
+      - (@proSSH)Estonia
+      - (@proSSH)Estonia 2
+      - (@proSSH)Spain
+      - (@proSSH)Spain 2
+      - (@proSSH)Spain 3
+      - (@proSSH)Spain 4
+      - (@proSSH)Spain 5
+      - (@proSSH)Spain 6
+      - 🇫🇮 (@proSSH)Finland
+      - 🇫🇮 (@proSSH)Finland 2
+      - 🇫🇷 (@proSSH)France 12
+      - 🇫🇷 (@proSSH)France 13
+      - 🇫🇷 (@proSSH)France 14
+      - 🇫🇷 (@proSSH)France 15
+      - 🇫🇷 (@proSSH)France 16
+      - 🇫🇷 (@proSSH)France 17
+      - (@proSSH)Greece
+      - (@proSSH)Greece 2
+      - 🇭🇰 (@proSSH)HongKong
+      - 🇭🇰 (@proSSH)HongKong 2
+      - (@proSSH)Croatia
+      - (@proSSH)Hungary
+      - 🇮🇩 (@proSSH)Indonesia
+      - 🇮🇩 (@proSSH)Indonesia 2
+      - 🇮🇪 (@proSSH)Ireland 2
+      - 🇮🇪 (@proSSH)Ireland 3
+      - (@proSSH)Israel 2
+      - (@proSSH)Israel 3
+      - 🇮🇳 (@proSSH)India 4
+      - 🇮🇳 (@proSSH)India 5
+      - 🇮🇳 (@proSSH)India 6
+      - 🇮🇳 (@proSSH)India 7
+      - 🇮🇳 (@proSSH)India 8
+      - 🇮🇳 (@proSSH)India 9
+      - (@proSSH)Iceland
+      - (@proSSH)Iceland 2
+      - 🇮🇹 (@proSSH)Italy 2
+      - 🇮🇹 (@proSSH)Italy 3
+      - 🇮🇹 (@proSSH)Italy 4
+      - 🇮🇹 (@proSSH)Italy 5
+      - 🇯🇵 (@proSSH)Japan 2
+      - 🇯🇵 (@proSSH)Japan 3
+      - (@proSSH)South
+      - (@proSSH)South 2
+      - (@proSSH)Kazakhstan
+      - (@proSSH)Kazakhstan 2
+      - (@proSSH)Luxembourg
+      - (@proSSH)Luxembourg 2
+      - (@proSSH)RepublicofLithuania
+      - (@proSSH)RepublicofLithuania 2
+      - (@proSSH)Libya
+      - (@proSSH)Libya 2
+      - (@proSSH)Republic-of-Moldova
+      - (@proSSH)North-Macedonia
+      - (@proSSH)North-Macedonia 2
+      - 🇲🇾 (@proSSH)Malaysia
+      - 🇲🇾 (@proSSH)Malaysia 2
+      - (@proSSH)Nigeria
+      - (@proSSH)Nigeria 2
+      - 🇳🇱 (@proSSH)Netherlands 2
+      - 🇳🇱 (@proSSH)Netherlands 3
+      - (@proSSH)Norway
+      - (@proSSH)New-Zealand
+      - (@proSSH)New-Zealand 2
+      - (@proSSH)Poland
+      - (@proSSH)Poland 2
+      - (@proSSH)Portugal
+      - (@proSSH)Portugal 2
+      - (@proSSH)Portugal 3
+      - (@proSSH)Portugal 4
+      - (@proSSH)Portugal 5
+      - (@proSSH)Paraguay
+      - (@proSSH)Paraguay 2
+      - (@proSSH)Romania
+      - (@proSSH)Romania 2
+      - (@proSSH)Serbia
+      - (@proSSH)Serbia 2
+      - 🇷🇺 (@proSSH)Russia 2
+      - 🇷🇺 (@proSSH)Russia 3
+      - 🇷🇺 (@proSSH)Russia 4
+      - 🇷🇺 (@proSSH)Russia 5
+      - 🇸🇪 (@proSSH)Sweden
+      - 🇸🇪 (@proSSH)Sweden 2
+      - 🇸🇬 (@proSSH)Singapore 3
+      - 🇸🇬 (@proSSH)Singapore 4
+      - (@proSSH)Slovenia
+      - (@proSSH)Slovenia 2
+      - (@proSSH)Slovakia
+      - (@proSSH)Slovakia 2
+      - 🇹🇭 (@proSSH)Thailand
+      - 🇹🇭 (@proSSH)Thailand 2
+      - 🇹🇷 (@proSSH)Turkey
+      - 🇹🇷 (@proSSH)Turkey 2
+      - 🇨🇳 (@proSSH)Taiwan
+      - 🇨🇳 (@proSSH)Taiwan 2
+      - 🇬🇧 (@proSSH)Ukraine
+      - 🇬🇧 (@proSSH)Ukraine 2
+      - 🇬🇧 (@proSSH)United-Kingdom
+      - 🇬🇧 (@proSSH)United-Kingdom 2
+      - 🇬🇧 (@proSSH)United-Kingdom 3
+      - 🇬🇧 (@proSSH)United-Kingdom 4
+      - 🇬🇧 (@proSSH)United-Kingdom 5
+      - 🇬🇧 (@proSSH)United-Kingdom 6
+      - 🇺🇸 (@proSSH)United-States
+      - 🇺🇸 (@proSSH)United-States 2
+      - 🇺🇸 (@proSSH)United-States 3
+      - 🇺🇸 (@proSSH)United-States 4
+      - 🇺🇸 (@proSSH)United-States 5
+      - 🇺🇸 (@proSSH)United-States 6
+      - 🇺🇸 (@proSSH)United-States 7
+      - 🇺🇸 (@proSSH)United-States 8
+      - 🇺🇸 (@proSSH)United-States 9
+      - 🇺🇸 (@proSSH)United-States 10
+      - 🇺🇸 (@proSSH)United-States 11
+      - 🇺🇸 (@proSSH)United-States 12
+      - 🇺🇸 (@proSSH)United-States 13
+      - 🇺🇸 (@proSSH)United-States 14
+      - 🇺🇸 (@proSSH)United-States 15
+      - 🇺🇸 (@proSSH)United-States 16
+      - 🇺🇸 (@proSSH)United-States 17
+      - 🇺🇸 (@proSSH)United-States 18
+      - 🇺🇸 (@proSSH)United-States 19
+      - 🇺🇸 (@proSSH)United-States 20
+      - 🇺🇸 (@proSSH)United-States 21
+      - 🇺🇸 (@proSSH)United-States 22
+      - 🇺🇸 (@proSSH)United-States 23
+      - 🇺🇸 (@proSSH)United-States 24
+      - 🇺🇸 (@proSSH)United-States 25
+      - 🇺🇸 (@proSSH)United-States 26
+      - 🇺🇸 (@proSSH)United-States 27
+      - 🇺🇸 (@proSSH)United-States 28
+      - 🇺🇸 (@proSSH)United-States 29
+      - 🇺🇸 (@proSSH)United-States 30
+      - 🇺🇸 (@proSSH)United-States 31
+      - 🇺🇸 (@proSSH)United-States 32
+      - (@proSSH)UnitedArabEmirates 2
+      - (@proSSH)United 39
+      - (@proSSH)Albania 3
+      - (@proSSH)Albania 4
+      - 🇺🇸 (@proSSH)Austria 3
+      - 🇺🇸 (@proSSH)Austria 4
+      - 🇦🇺 (@proSSH)Australia 12
+      - 🇦🇺 (@proSSH)Australia 13
+      - 🇦🇺 (@proSSH)Australia 14
+      - 🇦🇺 (@proSSH)Australia 15
+      - 🇦🇺 (@proSSH)Australia 16
+      - 🇦🇺 (@proSSH)Australia 17
+      - 🇦🇺 (@proSSH)Australia 18
+      - 🇦🇺 (@proSSH)Australia 19
+      - 🇦🇺 (@proSSH)Australia 20
+      - 🇦🇺 (@proSSH)Australia 21
+      - (@proSSH)BosniaandHerzegovina 3
+      - (@proSSH)BosniaandHerzegovina 4
+      - (@proSSH)Belgium 4
+      - (@proSSH)Belgium 5
+      - (@proSSH)Bulgaria 2
+      - 🇧🇷 (@proSSH)Brazil 4
+      - 🇧🇷 (@proSSH)Brazil 5
+      - 🇨🇦 (@proSSH)Canada 8
+      - 🇨🇦 (@proSSH)Canada 9
+      - 🇨🇦 (@proSSH)Canada 10
+      - 🇨🇦 (@proSSH)Canada 11
+      - 🇨🇦 (@proSSH)Canada 12
+      - 🇨🇦 (@proSSH)Canada 13
+      - (@proSSH)Switzerland 3
+      - (@proSSH)Switzerland 4
+      - (@proSSH)Chile 2
+      - (@proSSH)CostaRica 3
+      - (@proSSH)CostaRica 4
+      - 🇺🇸 (@proSSH)Cyprus 3
+      - 🇺🇸 (@proSSH)Cyprus 4
+      - (@proSSH)Czechia 2
+      - 🇩🇪 (@proSSH)Germany 28
+      - 🇩🇪 (@proSSH)Germany 29
+      - 🇩🇪 (@proSSH)Germany 30
+      - 🇩🇪 (@proSSH)Germany 31
+      - (@proSSH)Denmark 3
+      - (@proSSH)Denmark 4
+      - (@proSSH)Estonia 3
+      - (@proSSH)Estonia 4
+      - (@proSSH)Spain 7
+      - (@proSSH)Spain 8
+      - (@proSSH)Spain 9
+      - (@proSSH)Spain 10
+      - (@proSSH)Spain 11
+      - (@proSSH)Spain 12
+      - 🇫🇮 (@proSSH)Finland 3
+      - 🇫🇮 (@proSSH)Finland 4
+      - 🇫🇷 (@proSSH)France 18
+      - 🇫🇷 (@proSSH)France 19
+      - 🇫🇷 (@proSSH)France 20
+      - 🇫🇷 (@proSSH)France 21
+      - 🇫🇷 (@proSSH)France 22
+      - 🇫🇷 (@proSSH)France 23
+      - (@proSSH)Greece 3
+      - (@proSSH)Greece 4
+      - 🇭🇰 (@proSSH)HongKong 3
+      - 🇭🇰 (@proSSH)HongKong 4
+      - (@proSSH)Croatia 2
+      - (@proSSH)Hungary 2
+      - 🇮🇩 (@proSSH)Indonesia 3
+      - 🇮🇩 (@proSSH)Indonesia 4
+      - 🇮🇪 (@proSSH)Ireland 4
+      - 🇮🇪 (@proSSH)Ireland 5
+      - (@proSSH)Israel 4
+      - (@proSSH)Israel 5
+      - 🇮🇳 (@proSSH)India 10
+      - 🇮🇳 (@proSSH)India 11
+      - 🇮🇳 (@proSSH)India 12
+      - 🇮🇳 (@proSSH)India 13
+      - 🇮🇳 (@proSSH)India 14
+      - 🇮🇳 (@proSSH)India 15
+      - (@proSSH)Iceland 3
+      - (@proSSH)Iceland 4
+      - 🇮🇹 (@proSSH)Italy 6
+      - 🇮🇹 (@proSSH)Italy 7
+      - 🇮🇹 (@proSSH)Italy 8
+      - 🇮🇹 (@proSSH)Italy 9
+      - 🇯🇵 (@proSSH)Japan 4
+      - 🇯🇵 (@proSSH)Japan 5
+      - (@proSSH)South 3
+      - (@proSSH)South 4
+      - (@proSSH)Kazakhstan 3
+      - (@proSSH)Kazakhstan 4
+      - (@proSSH)Luxembourg 3
+      - (@proSSH)Luxembourg 4
+      - (@proSSH)RepublicofLithuania 3
+      - (@proSSH)RepublicofLithuania 4
+      - (@proSSH)Libya 3
+      - (@proSSH)Libya 4
+      - (@proSSH)Republic-of-Moldova 2
+      - (@proSSH)North-Macedonia 3
+      - (@proSSH)North-Macedonia 4
+      - 🇲🇾 (@proSSH)Malaysia 3
+      - 🇲🇾 (@proSSH)Malaysia 4
+      - (@proSSH)Nigeria 3
+      - (@proSSH)Nigeria 4
+      - 🇳🇱 (@proSSH)Netherlands 4
+      - 🇳🇱 (@proSSH)Netherlands 5
+      - (@proSSH)Norway 2
+      - (@proSSH)New-Zealand 3
+      - (@proSSH)New-Zealand 4
+      - (@proSSH)Poland 3
+      - (@proSSH)Poland 4
+      - (@proSSH)Portugal 6
+      - (@proSSH)Portugal 7
+      - (@proSSH)Portugal 8
+      - (@proSSH)Portugal 9
+      - (@proSSH)Portugal 10
+      - (@proSSH)Paraguay 3
+      - (@proSSH)Paraguay 4
+      - (@proSSH)Romania 3
+      - (@proSSH)Romania 4
+      - (@proSSH)Serbia 3
+      - (@proSSH)Serbia 4
+      - 🇷🇺 (@proSSH)Russia 6
+      - 🇷🇺 (@proSSH)Russia 7
+      - 🇷🇺 (@proSSH)Russia 8
+      - 🇷🇺 (@proSSH)Russia 9
+      - 🇸🇪 (@proSSH)Sweden 3
+      - 🇸🇪 (@proSSH)Sweden 4
+      - 🇸🇬 (@proSSH)Singapore 5
+      - 🇸🇬 (@proSSH)Singapore 6
+      - (@proSSH)Slovenia 3
+      - (@proSSH)Slovenia 4
+      - (@proSSH)Slovakia 3
+      - (@proSSH)Slovakia 4
+      - 🇹🇭 (@proSSH)Thailand 3
+      - 🇹🇭 (@proSSH)Thailand 4
+      - 🇹🇷 (@proSSH)Turkey 3
+      - 🇹🇷 (@proSSH)Turkey 4
+      - 🇨🇳 (@proSSH)Taiwan 3
+      - 🇨🇳 (@proSSH)Taiwan 4
+      - 🇬🇧 (@proSSH)Ukraine 3
+      - 🇬🇧 (@proSSH)Ukraine 4
+      - 🇬🇧 (@proSSH)United-Kingdom 7
+      - 🇬🇧 (@proSSH)United-Kingdom 8
+      - 🇬🇧 (@proSSH)United-Kingdom 9
+      - 🇬🇧 (@proSSH)United-Kingdom 10
+      - 🇬🇧 (@proSSH)United-Kingdom 11
+      - 🇬🇧 (@proSSH)United-Kingdom 12
+      - 🇺🇸 (@proSSH)United-States 33
+      - 🇺🇸 (@proSSH)United-States 34
+      - 🇺🇸 (@proSSH)United-States 35
+      - 🇺🇸 (@proSSH)United-States 36
+      - 🇺🇸 (@proSSH)United-States 37
+      - 🇺🇸 (@proSSH)United-States 38
+      - 🇺🇸 (@proSSH)United-States 39
+      - 🇺🇸 (@proSSH)United-States 40
+      - 🇺🇸 (@proSSH)United-States 41
+      - 🇺🇸 (@proSSH)United-States 42
+      - 🇺🇸 (@proSSH)United-States 43
+      - 🇺🇸 (@proSSH)United-States 44
+      - 🇺🇸 (@proSSH)United-States 45
+      - 🇺🇸 (@proSSH)United-States 46
+      - 🇺🇸 (@proSSH)United-States 47
+      - 🇺🇸 (@proSSH)United-States 48
+      - 🇺🇸 (@proSSH)United-States 49
+      - 🇺🇸 (@proSSH)United-States 50
+      - 🇺🇸 (@proSSH)United-States 51
+      - 🇺🇸 (@proSSH)United-States 52
+      - 🇺🇸 (@proSSH)United-States 53
+      - 🇺🇸 (@proSSH)United-States 54
+      - 🇺🇸 (@proSSH)United-States 55
+      - 🇺🇸 (@proSSH)United-States 56
+      - 🇺🇸 (@proSSH)United-States 57
+      - 🇺🇸 (@proSSH)United-States 58
+      - 🇺🇸 (@proSSH)United-States 59
+      - 🇺🇸 (@proSSH)United-States 60
+      - 🇺🇸 (@proSSH)United-States 61
+      - 🇺🇸 (@proSSH)United-States 62
+      - 🇺🇸 (@proSSH)United-States 63
+      - 🇺🇸 (@proSSH)United-States 64
+      - 🇩🇪 Germany1(@proSSH)
+      - 🇩🇪 Germany2(@proSSH)
+      - 🇩🇪 Germany3(@proSSH)
+      - 🇩🇪 Germany4(@proSSH)
+      - 🇩🇪 Germany5(@proSSH)
+      - 🇳🇱 Netherlands1(@proSSH)
+      - 🇳🇱 Netherlands2(@proSSH)
+      - 🇳🇱 Netherlands3(@proSSH)
+      - 🇳🇱 Netherlands4(@proSSH)
+      - 🇳🇱 Netherlands5(@proSSH)
+      - 🇸🇬 Singapore1(@proSSH)
+      - 🇸🇬 Singapore2(@proSSH)
+      - 🇸🇬 Singapore3(@proSSH)
+      - 🇸🇬 Singapore4(@proSSH)
+      - 🇸🇬 Singapore5(@proSSH)
+      - 🇺🇸 United-states1(@proSSH)
+      - 🇺🇸 United-states2(@proSSH)
+      - 🇺🇸 United-states3(@proSSH)
+      - 🇺🇸 United-states4(@proSSH)
+      - 🇺🇸 United-states5(@proSSH)
+
+  - name: 🔥 Auto(Best ping)
+    type: url-test
+    proxies:
+      - (@proSSH)United
+      - (@proSSH)United 2
+      - 🇩🇪 (@proSSH)Germany
+      - 🇩🇪 (@proSSH)Germany 2
+      - 🇩🇪 (@proSSH)Germany 3
+      - 🇩🇪 (@proSSH)Germany 4
+      - 🇩🇪 (@proSSH)Germany 5
+      - 🇩🇪 (@proSSH)Germany 6
+      - 🇩🇪 (@proSSH)Germany 7
+      - 🇩🇪 (@proSSH)Germany 8
+      - 🇩🇪 (@proSSH)Germany 9
+      - 🇩🇪 (@proSSH)Germany 10
+      - 🇩🇪 (@proSSH)Germany 11
+      - (@proSSH)United 3
+      - 🇩🇪 (@proSSH)Germany 12
+      - (@proSSH)United 4
+      - (@proSSH)United 5
+      - (@proSSH)United 6
+      - 🇩🇪 (@proSSH)Germany 13
+      - 🇩🇪 (@proSSH)Germany 14
+      - 🇩🇪 (@proSSH)Germany 15
+      - (@proSSH)United 7
+      - (@proSSH)United 8
+      - 🇩🇪 (@proSSH)Germany 16
+      - 🇩🇪 (@proSSH)Germany 17
+      - 🇩🇪 (@proSSH)Germany 18
+      - (@proSSH)United 9
+      - (@proSSH)United 10
+      - (@proSSH)United 11
+      - (@proSSH)United 12
+      - (@proSSH)United 13
+      - (@proSSH)United 14
+      - (@proSSH)United 15
+      - (@proSSH)United 16
+      - (@proSSH)United 17
+      - (@proSSH)United 18
+      - (@proSSH)United 19
+      - (@proSSH)United 20
+      - 🇫🇷 (@proSSH)France
+      - 🇫🇷 (@proSSH)France 2
+      - 🇫🇷 (@proSSH)France 3
+      - 🇫🇷 (@proSSH)France 4
+      - 🇫🇷 (@proSSH)France 5
+      - 🇫🇷 (@proSSH)France 6
+      - 🇫🇷 (@proSSH)France 7
+      - 🇸🇬 (@proSSH)Singapore
+      - 🇸🇬 (@proSSH)Singapore 2
+      - 🇷🇺 (@proSSH)Russia
+      - 🇵🇭 (@proSSH)Philippines
+      - 🇵🇭 (@proSSH)Philippines 2
+      - (@proSSH)New
+      - 🇳🇱 (@proSSH)Netherlands
+      - 🇮🇹 (@proSSH)Italy
+      - (@proSSH)Israel
+      - 🇮🇪 (@proSSH)Ireland
+      - 🇮🇳 (@proSSH)India
+      - 🇮🇳 (@proSSH)India 2
+      - 🇮🇳 (@proSSH)India 3
+      - (@proSSH)Hong
+      - 🇧🇷 (@proSSH)Brazil
+      - (@proSSH)Belgium
+      - 🇯🇵 (@proSSH)Japan
+      - 🇩🇪 (@proSSH)Germany 19
+      - 🇩🇪 (@proSSH)Germany 20
+      - 🇩🇪 (@proSSH)Germany 21
+      - 🇩🇪 (@proSSH)Germany 22
+      - 🇩🇪 (@proSSH)Germany 23
+      - 🇫🇷 (@proSSH)France 8
+      - 🇫🇷 (@proSSH)France 9
+      - 🇫🇷 (@proSSH)France 10
+      - 🇫🇷 (@proSSH)France 11
+      - 🇨🇦 (@proSSH)Canada
+      - 🇦🇺 (@proSSH)Australia
+      - (@proSSH)United 21
+      - (@proSSH)United 22
+      - (@proSSH)United 23
+      - (@proSSH)United 24
+      - (@proSSH)United 25
+      - (@proSSH)United 26
+      - (@proSSH)United 27
+      - (@proSSH)United 28
+      - (@proSSH)United 29
+      - (@proSSH)United 30
+      - (@proSSH)United 31
+      - (@proSSH)United 32
+      - (@proSSH)United 33
+      - (@proSSH)United 34
+      - (@proSSH)United 35
+      - (@proSSH)United 36
+      - (@proSSH)United 37
+      - (@proSSH)UnitedArabEmirates
+      - (@proSSH)United 38
+      - (@proSSH)Albania
+      - (@proSSH)Albania 2
+      - 🇺🇸 (@proSSH)Austria
+      - 🇺🇸 (@proSSH)Austria 2
+      - 🇦🇺 (@proSSH)Australia 2
+      - 🇦🇺 (@proSSH)Australia 3
+      - 🇦🇺 (@proSSH)Australia 4
+      - 🇦🇺 (@proSSH)Australia 5
+      - 🇦🇺 (@proSSH)Australia 6
+      - 🇦🇺 (@proSSH)Australia 7
+      - 🇦🇺 (@proSSH)Australia 8
+      - 🇦🇺 (@proSSH)Australia 9
+      - 🇦🇺 (@proSSH)Australia 10
+      - 🇦🇺 (@proSSH)Australia 11
+      - (@proSSH)BosniaandHerzegovina
+      - (@proSSH)BosniaandHerzegovina 2
+      - (@proSSH)Belgium 2
+      - (@proSSH)Belgium 3
+      - (@proSSH)Bulgaria
+      - 🇧🇷 (@proSSH)Brazil 2
+      - 🇧🇷 (@proSSH)Brazil 3
+      - 🇨🇦 (@proSSH)Canada 2
+      - 🇨🇦 (@proSSH)Canada 3
+      - 🇨🇦 (@proSSH)Canada 4
+      - 🇨🇦 (@proSSH)Canada 5
+      - 🇨🇦 (@proSSH)Canada 6
+      - 🇨🇦 (@proSSH)Canada 7
+      - (@proSSH)Switzerland
+      - (@proSSH)Switzerland 2
+      - (@proSSH)Chile
+      - (@proSSH)CostaRica
+      - (@proSSH)CostaRica 2
+      - 🇺🇸 (@proSSH)Cyprus
+      - 🇺🇸 (@proSSH)Cyprus 2
+      - (@proSSH)Czechia
+      - 🇩🇪 (@proSSH)Germany 24
+      - 🇩🇪 (@proSSH)Germany 25
+      - 🇩🇪 (@proSSH)Germany 26
+      - 🇩🇪 (@proSSH)Germany 27
+      - (@proSSH)Denmark
+      - (@proSSH)Denmark 2
+      - (@proSSH)Estonia
+      - (@proSSH)Estonia 2
+      - (@proSSH)Spain
+      - (@proSSH)Spain 2
+      - (@proSSH)Spain 3
+      - (@proSSH)Spain 4
+      - (@proSSH)Spain 5
+      - (@proSSH)Spain 6
+      - 🇫🇮 (@proSSH)Finland
+      - 🇫🇮 (@proSSH)Finland 2
+      - 🇫🇷 (@proSSH)France 12
+      - 🇫🇷 (@proSSH)France 13
+      - 🇫🇷 (@proSSH)France 14
+      - 🇫🇷 (@proSSH)France 15
+      - 🇫🇷 (@proSSH)France 16
+      - 🇫🇷 (@proSSH)France 17
+      - (@proSSH)Greece
+      - (@proSSH)Greece 2
+      - 🇭🇰 (@proSSH)HongKong
+      - 🇭🇰 (@proSSH)HongKong 2
+      - (@proSSH)Croatia
+      - (@proSSH)Hungary
+      - 🇮🇩 (@proSSH)Indonesia
+      - 🇮🇩 (@proSSH)Indonesia 2
+      - 🇮🇪 (@proSSH)Ireland 2
+      - 🇮🇪 (@proSSH)Ireland 3
+      - (@proSSH)Israel 2
+      - (@proSSH)Israel 3
+      - 🇮🇳 (@proSSH)India 4
+      - 🇮🇳 (@proSSH)India 5
+      - 🇮🇳 (@proSSH)India 6
+      - 🇮🇳 (@proSSH)India 7
+      - 🇮🇳 (@proSSH)India 8
+      - 🇮🇳 (@proSSH)India 9
+      - (@proSSH)Iceland
+      - (@proSSH)Iceland 2
+      - 🇮🇹 (@proSSH)Italy 2
+      - 🇮🇹 (@proSSH)Italy 3
+      - 🇮🇹 (@proSSH)Italy 4
+      - 🇮🇹 (@proSSH)Italy 5
+      - 🇯🇵 (@proSSH)Japan 2
+      - 🇯🇵 (@proSSH)Japan 3
+      - (@proSSH)South
+      - (@proSSH)South 2
+      - (@proSSH)Kazakhstan
+      - (@proSSH)Kazakhstan 2
+      - (@proSSH)Luxembourg
+      - (@proSSH)Luxembourg 2
+      - (@proSSH)RepublicofLithuania
+      - (@proSSH)RepublicofLithuania 2
+      - (@proSSH)Libya
+      - (@proSSH)Libya 2
+      - (@proSSH)Republic-of-Moldova
+      - (@proSSH)North-Macedonia
+      - (@proSSH)North-Macedonia 2
+      - 🇲🇾 (@proSSH)Malaysia
+      - 🇲🇾 (@proSSH)Malaysia 2
+      - (@proSSH)Nigeria
+      - (@proSSH)Nigeria 2
+      - 🇳🇱 (@proSSH)Netherlands 2
+      - 🇳🇱 (@proSSH)Netherlands 3
+      - (@proSSH)Norway
+      - (@proSSH)New-Zealand
+      - (@proSSH)New-Zealand 2
+      - (@proSSH)Poland
+      - (@proSSH)Poland 2
+      - (@proSSH)Portugal
+      - (@proSSH)Portugal 2
+      - (@proSSH)Portugal 3
+      - (@proSSH)Portugal 4
+      - (@proSSH)Portugal 5
+      - (@proSSH)Paraguay
+      - (@proSSH)Paraguay 2
+      - (@proSSH)Romania
+      - (@proSSH)Romania 2
+      - (@proSSH)Serbia
+      - (@proSSH)Serbia 2
+      - 🇷🇺 (@proSSH)Russia 2
+      - 🇷🇺 (@proSSH)Russia 3
+      - 🇷🇺 (@proSSH)Russia 4
+      - 🇷🇺 (@proSSH)Russia 5
+      - 🇸🇪 (@proSSH)Sweden
+      - 🇸🇪 (@proSSH)Sweden 2
+      - 🇸🇬 (@proSSH)Singapore 3
+      - 🇸🇬 (@proSSH)Singapore 4
+      - (@proSSH)Slovenia
+      - (@proSSH)Slovenia 2
+      - (@proSSH)Slovakia
+      - (@proSSH)Slovakia 2
+      - 🇹🇭 (@proSSH)Thailand
+      - 🇹🇭 (@proSSH)Thailand 2
+      - 🇹🇷 (@proSSH)Turkey
+      - 🇹🇷 (@proSSH)Turkey 2
+      - 🇨🇳 (@proSSH)Taiwan
+      - 🇨🇳 (@proSSH)Taiwan 2
+      - 🇬🇧 (@proSSH)Ukraine
+      - 🇬🇧 (@proSSH)Ukraine 2
+      - 🇬🇧 (@proSSH)United-Kingdom
+      - 🇬🇧 (@proSSH)United-Kingdom 2
+      - 🇬🇧 (@proSSH)United-Kingdom 3
+      - 🇬🇧 (@proSSH)United-Kingdom 4
+      - 🇬🇧 (@proSSH)United-Kingdom 5
+      - 🇬🇧 (@proSSH)United-Kingdom 6
+      - 🇺🇸 (@proSSH)United-States
+      - 🇺🇸 (@proSSH)United-States 2
+      - 🇺🇸 (@proSSH)United-States 3
+      - 🇺🇸 (@proSSH)United-States 4
+      - 🇺🇸 (@proSSH)United-States 5
+      - 🇺🇸 (@proSSH)United-States 6
+      - 🇺🇸 (@proSSH)United-States 7
+      - 🇺🇸 (@proSSH)United-States 8
+      - 🇺🇸 (@proSSH)United-States 9
+      - 🇺🇸 (@proSSH)United-States 10
+      - 🇺🇸 (@proSSH)United-States 11
+      - 🇺🇸 (@proSSH)United-States 12
+      - 🇺🇸 (@proSSH)United-States 13
+      - 🇺🇸 (@proSSH)United-States 14
+      - 🇺🇸 (@proSSH)United-States 15
+      - 🇺🇸 (@proSSH)United-States 16
+      - 🇺🇸 (@proSSH)United-States 17
+      - 🇺🇸 (@proSSH)United-States 18
+      - 🇺🇸 (@proSSH)United-States 19
+      - 🇺🇸 (@proSSH)United-States 20
+      - 🇺🇸 (@proSSH)United-States 21
+      - 🇺🇸 (@proSSH)United-States 22
+      - 🇺🇸 (@proSSH)United-States 23
+      - 🇺🇸 (@proSSH)United-States 24
+      - 🇺🇸 (@proSSH)United-States 25
+      - 🇺🇸 (@proSSH)United-States 26
+      - 🇺🇸 (@proSSH)United-States 27
+      - 🇺🇸 (@proSSH)United-States 28
+      - 🇺🇸 (@proSSH)United-States 29
+      - 🇺🇸 (@proSSH)United-States 30
+      - 🇺🇸 (@proSSH)United-States 31
+      - 🇺🇸 (@proSSH)United-States 32
+      - (@proSSH)UnitedArabEmirates 2
+      - (@proSSH)United 39
+      - (@proSSH)Albania 3
+      - (@proSSH)Albania 4
+      - 🇺🇸 (@proSSH)Austria 3
+      - 🇺🇸 (@proSSH)Austria 4
+      - 🇦🇺 (@proSSH)Australia 12
+      - 🇦🇺 (@proSSH)Australia 13
+      - 🇦🇺 (@proSSH)Australia 14
+      - 🇦🇺 (@proSSH)Australia 15
+      - 🇦🇺 (@proSSH)Australia 16
+      - 🇦🇺 (@proSSH)Australia 17
+      - 🇦🇺 (@proSSH)Australia 18
+      - 🇦🇺 (@proSSH)Australia 19
+      - 🇦🇺 (@proSSH)Australia 20
+      - 🇦🇺 (@proSSH)Australia 21
+      - (@proSSH)BosniaandHerzegovina 3
+      - (@proSSH)BosniaandHerzegovina 4
+      - (@proSSH)Belgium 4
+      - (@proSSH)Belgium 5
+      - (@proSSH)Bulgaria 2
+      - 🇧🇷 (@proSSH)Brazil 4
+      - 🇧🇷 (@proSSH)Brazil 5
+      - 🇨🇦 (@proSSH)Canada 8
+      - 🇨🇦 (@proSSH)Canada 9
+      - 🇨🇦 (@proSSH)Canada 10
+      - 🇨🇦 (@proSSH)Canada 11
+      - 🇨🇦 (@proSSH)Canada 12
+      - 🇨🇦 (@proSSH)Canada 13
+      - (@proSSH)Switzerland 3
+      - (@proSSH)Switzerland 4
+      - (@proSSH)Chile 2
+      - (@proSSH)CostaRica 3
+      - (@proSSH)CostaRica 4
+      - 🇺🇸 (@proSSH)Cyprus 3
+      - 🇺🇸 (@proSSH)Cyprus 4
+      - (@proSSH)Czechia 2
+      - 🇩🇪 (@proSSH)Germany 28
+      - 🇩🇪 (@proSSH)Germany 29
+      - 🇩🇪 (@proSSH)Germany 30
+      - 🇩🇪 (@proSSH)Germany 31
+      - (@proSSH)Denmark 3
+      - (@proSSH)Denmark 4
+      - (@proSSH)Estonia 3
+      - (@proSSH)Estonia 4
+      - (@proSSH)Spain 7
+      - (@proSSH)Spain 8
+      - (@proSSH)Spain 9
+      - (@proSSH)Spain 10
+      - (@proSSH)Spain 11
+      - (@proSSH)Spain 12
+      - 🇫🇮 (@proSSH)Finland 3
+      - 🇫🇮 (@proSSH)Finland 4
+      - 🇫🇷 (@proSSH)France 18
+      - 🇫🇷 (@proSSH)France 19
+      - 🇫🇷 (@proSSH)France 20
+      - 🇫🇷 (@proSSH)France 21
+      - 🇫🇷 (@proSSH)France 22
+      - 🇫🇷 (@proSSH)France 23
+      - (@proSSH)Greece 3
+      - (@proSSH)Greece 4
+      - 🇭🇰 (@proSSH)HongKong 3
+      - 🇭🇰 (@proSSH)HongKong 4
+      - (@proSSH)Croatia 2
+      - (@proSSH)Hungary 2
+      - 🇮🇩 (@proSSH)Indonesia 3
+      - 🇮🇩 (@proSSH)Indonesia 4
+      - 🇮🇪 (@proSSH)Ireland 4
+      - 🇮🇪 (@proSSH)Ireland 5
+      - (@proSSH)Israel 4
+      - (@proSSH)Israel 5
+      - 🇮🇳 (@proSSH)India 10
+      - 🇮🇳 (@proSSH)India 11
+      - 🇮🇳 (@proSSH)India 12
+      - 🇮🇳 (@proSSH)India 13
+      - 🇮🇳 (@proSSH)India 14
+      - 🇮🇳 (@proSSH)India 15
+      - (@proSSH)Iceland 3
+      - (@proSSH)Iceland 4
+      - 🇮🇹 (@proSSH)Italy 6
+      - 🇮🇹 (@proSSH)Italy 7
+      - 🇮🇹 (@proSSH)Italy 8
+      - 🇮🇹 (@proSSH)Italy 9
+      - 🇯🇵 (@proSSH)Japan 4
+      - 🇯🇵 (@proSSH)Japan 5
+      - (@proSSH)South 3
+      - (@proSSH)South 4
+      - (@proSSH)Kazakhstan 3
+      - (@proSSH)Kazakhstan 4
+      - (@proSSH)Luxembourg 3
+      - (@proSSH)Luxembourg 4
+      - (@proSSH)RepublicofLithuania 3
+      - (@proSSH)RepublicofLithuania 4
+      - (@proSSH)Libya 3
+      - (@proSSH)Libya 4
+      - (@proSSH)Republic-of-Moldova 2
+      - (@proSSH)North-Macedonia 3
+      - (@proSSH)North-Macedonia 4
+      - 🇲🇾 (@proSSH)Malaysia 3
+      - 🇲🇾 (@proSSH)Malaysia 4
+      - (@proSSH)Nigeria 3
+      - (@proSSH)Nigeria 4
+      - 🇳🇱 (@proSSH)Netherlands 4
+      - 🇳🇱 (@proSSH)Netherlands 5
+      - (@proSSH)Norway 2
+      - (@proSSH)New-Zealand 3
+      - (@proSSH)New-Zealand 4
+      - (@proSSH)Poland 3
+      - (@proSSH)Poland 4
+      - (@proSSH)Portugal 6
+      - (@proSSH)Portugal 7
+      - (@proSSH)Portugal 8
+      - (@proSSH)Portugal 9
+      - (@proSSH)Portugal 10
+      - (@proSSH)Paraguay 3
+      - (@proSSH)Paraguay 4
+      - (@proSSH)Romania 3
+      - (@proSSH)Romania 4
+      - (@proSSH)Serbia 3
+      - (@proSSH)Serbia 4
+      - 🇷🇺 (@proSSH)Russia 6
+      - 🇷🇺 (@proSSH)Russia 7
+      - 🇷🇺 (@proSSH)Russia 8
+      - 🇷🇺 (@proSSH)Russia 9
+      - 🇸🇪 (@proSSH)Sweden 3
+      - 🇸🇪 (@proSSH)Sweden 4
+      - 🇸🇬 (@proSSH)Singapore 5
+      - 🇸🇬 (@proSSH)Singapore 6
+      - (@proSSH)Slovenia 3
+      - (@proSSH)Slovenia 4
+      - (@proSSH)Slovakia 3
+      - (@proSSH)Slovakia 4
+      - 🇹🇭 (@proSSH)Thailand 3
+      - 🇹🇭 (@proSSH)Thailand 4
+      - 🇹🇷 (@proSSH)Turkey 3
+      - 🇹🇷 (@proSSH)Turkey 4
+      - 🇨🇳 (@proSSH)Taiwan 3
+      - 🇨🇳 (@proSSH)Taiwan 4
+      - 🇬🇧 (@proSSH)Ukraine 3
+      - 🇬🇧 (@proSSH)Ukraine 4
+      - 🇬🇧 (@proSSH)United-Kingdom 7
+      - 🇬🇧 (@proSSH)United-Kingdom 8
+      - 🇬🇧 (@proSSH)United-Kingdom 9
+      - 🇬🇧 (@proSSH)United-Kingdom 10
+      - 🇬🇧 (@proSSH)United-Kingdom 11
+      - 🇬🇧 (@proSSH)United-Kingdom 12
+      - 🇺🇸 (@proSSH)United-States 33
+      - 🇺🇸 (@proSSH)United-States 34
+      - 🇺🇸 (@proSSH)United-States 35
+      - 🇺🇸 (@proSSH)United-States 36
+      - 🇺🇸 (@proSSH)United-States 37
+      - 🇺🇸 (@proSSH)United-States 38
+      - 🇺🇸 (@proSSH)United-States 39
+      - 🇺🇸 (@proSSH)United-States 40
+      - 🇺🇸 (@proSSH)United-States 41
+      - 🇺🇸 (@proSSH)United-States 42
+      - 🇺🇸 (@proSSH)United-States 43
+      - 🇺🇸 (@proSSH)United-States 44
+      - 🇺🇸 (@proSSH)United-States 45
+      - 🇺🇸 (@proSSH)United-States 46
+      - 🇺🇸 (@proSSH)United-States 47
+      - 🇺🇸 (@proSSH)United-States 48
+      - 🇺🇸 (@proSSH)United-States 49
+      - 🇺🇸 (@proSSH)United-States 50
+      - 🇺🇸 (@proSSH)United-States 51
+      - 🇺🇸 (@proSSH)United-States 52
+      - 🇺🇸 (@proSSH)United-States 53
+      - 🇺🇸 (@proSSH)United-States 54
+      - 🇺🇸 (@proSSH)United-States 55
+      - 🇺🇸 (@proSSH)United-States 56
+      - 🇺🇸 (@proSSH)United-States 57
+      - 🇺🇸 (@proSSH)United-States 58
+      - 🇺🇸 (@proSSH)United-States 59
+      - 🇺🇸 (@proSSH)United-States 60
+      - 🇺🇸 (@proSSH)United-States 61
+      - 🇺🇸 (@proSSH)United-States 62
+      - 🇺🇸 (@proSSH)United-States 63
+      - 🇺🇸 (@proSSH)United-States 64
+      - 🇩🇪 Germany1(@proSSH)
+      - 🇩🇪 Germany2(@proSSH)
+      - 🇩🇪 Germany3(@proSSH)
+      - 🇩🇪 Germany4(@proSSH)
+      - 🇩🇪 Germany5(@proSSH)
+      - 🇳🇱 Netherlands1(@proSSH)
+      - 🇳🇱 Netherlands2(@proSSH)
+      - 🇳🇱 Netherlands3(@proSSH)
+      - 🇳🇱 Netherlands4(@proSSH)
+      - 🇳🇱 Netherlands5(@proSSH)
+      - 🇸🇬 Singapore1(@proSSH)
+      - 🇸🇬 Singapore2(@proSSH)
+      - 🇸🇬 Singapore3(@proSSH)
+      - 🇸🇬 Singapore4(@proSSH)
+      - 🇸🇬 Singapore5(@proSSH)
+      - 🇺🇸 United-states1(@proSSH)
+      - 🇺🇸 United-states2(@proSSH)
+      - 🇺🇸 United-states3(@proSSH)
+      - 🇺🇸 United-states4(@proSSH)
+      - 🇺🇸 United-states5(@proSSH)
+    url: https://www.google.com/
+    interval: 300
+
+
+rules:
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - GEOIP,IR,DIRECT
+  - MATCH,,🔰 Select,dns-failed
